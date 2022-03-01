@@ -23,7 +23,7 @@ from google.cloud.vision_v1 import types
 
 
 #connect json file containing the credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="object-detection-339622-9a2c989aa7f1.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="<google-credential-json-file>"   #Add your google creedential json file here
 #instantiate a client
 client=vision.ImageAnnotatorClient()
 
